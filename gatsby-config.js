@@ -89,7 +89,7 @@ module.exports = {
         // Optional path to a custom redirect template.
         // The redirect page is only shown briefly,
         // But you can use this setting to override its CSS styling.
-        redirectTemplate: `${__dirname}/src/redirect-template.js`,
+        redirectTemplate: '',
     
         // Optional link target.
         // Note that if a target is specified, "noreferrer" will also be added.
