@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Thoughts on IoT
 date: 2018-12-10T15:04:10.000Z
 description: Thoughts on IoT; what it can do and
-where it is going
+    where it is going.
 tags:
   - iot
   - future
