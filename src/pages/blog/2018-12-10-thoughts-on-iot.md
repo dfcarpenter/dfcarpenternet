@@ -13,6 +13,13 @@ The internet of things, an oft misused term, as an idea has enveloped even more 
 
 The "historical" internet, especially the layer on top of it, the world-wide-web of HTTP and html documents, is understood as a way to easily share, link, and freely disperse knowledge. It's largely remained that way despite modern attempts to wall parts of it off.
 
+[Try it on CodeSandbox](codesandbox://components-and-props/composing-components.js)
+
+<!-- after -->
+<a href="https://codesandbox.io/api/v1/sandboxes/define?parameters=...">
+  Try it on CodeSandbox
+</a>
+
 ## The basic IoT promise
 
 The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
