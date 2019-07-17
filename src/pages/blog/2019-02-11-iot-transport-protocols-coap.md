@@ -1,12 +1,11 @@
 ---
 templateKey: blog-post
-title: Thoughts on IoT
+title: IoT transport protocols - CoAP
 date: 2018-12-10T15:04:10.000Z
 description: Thoughts on IoT; what it can do and
     where it is going.
 tags:
   - iot
-  - future
 ---
 
 The internet of things, an oft misused term, as an idea has enveloped even more ideas and hence has become, for many, almost unintelligible. 

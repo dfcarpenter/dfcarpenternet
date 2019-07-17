@@ -1,15 +1,22 @@
 ---
 templateKey: blog-post
-title: Thoughts on IoT
+title: IoT Standards - SenML
 date: 2018-12-10T15:04:10.000Z
-description: Thoughts on IoT; what it can do and
-    where it is going.
+description: Overview of SenML. What it is and when to use it.
 tags:
   - iot
-  - future
+  - SenML
 ---
 
 The internet of things, an oft misused term, as an idea has enveloped even more ideas and hence has become, for many, almost unintelligible. 
+
+Problem
+
+SenML in the wild
+
+Current Status
+
+
 
 The "historical" internet, especially the layer on top of it, the world-wide-web of HTTP and html documents, is understood as a way to easily share, link, and freely disperse knowledge. It's largely remained that way despite modern attempts to wall parts of it off.
 
