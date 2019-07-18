@@ -4,7 +4,7 @@ path: /about
 title: About our values
 ---
 ### About me
-My name is Daniel Carpenter and I am web developer/designer based out of San Jose. I currently work as a full stack developer at Maximum Labs, a small studio based out of Emeryville.
+My name is Daniel Carpenter and I am an software expert based out of Berkeley. I currently work as a full stack developer at Maximum Labs, a small studio based out of Emeryville.
 
 In a previous life I was first a network and systems engineer and after that on my way to a PhD in Political Science. Through my academic research (using python and R) I discovered a passion for programming and found I liked making web applications better than plotting crime statistics and congressional voting.
 

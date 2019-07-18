@@ -59,6 +59,24 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-klipse',
+      options: {
+        // Class prefix for <pre> tags containing code examples
+        // defaults to empty string
+        // if you use PrimsJS for example then add `language-` as the prefix
+        classPrefix: '',
+        // Klipse config, you can check it here
+        // https://github.com/viebel/klipse#configuration
+        klipseSettings: {
+          selector: '.language-klipse', 
+          selector_reagent: '.language-reagent'
+        },
+        // To load any external scripts you need, pass an array of URLs. The plugin will always load them before the klipse plugin
+        // defaults to an empty Array
+        externalScripts: []
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
