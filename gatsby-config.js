@@ -69,10 +69,7 @@ module.exports = {
         classPrefix: '',
         // Klipse config, you can check it here
         // https://github.com/viebel/klipse#configuration
-        klipseSettings: {
-          selector: '.language-klipse', 
-          selector_reagent: '.language-reagent'
-        },
+        klipseSettings: {},
         // To load any external scripts you need, pass an array of URLs. The plugin will always load them before the klipse plugin
         // defaults to an empty Array
         externalScripts: []

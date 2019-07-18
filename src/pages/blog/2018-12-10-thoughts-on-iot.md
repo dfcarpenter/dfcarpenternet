@@ -11,8 +11,9 @@ tags:
 
 The internet of things, an oft misused term, as an idea has enveloped even more ideas and hence has become, for many, almost unintelligible.
 
-```eval-clojure
-(map inc [1 2 3])
+```eval-js
+var x = 1;
+x + Math.random();
 ```
 The "historical" internet, especially the layer on top of it, the world-wide-web of HTTP and html documents, is understood as a way to easily share, link, and freely disperse knowledge. It's largely remained that way despite modern attempts to wall parts of it off.
 
