@@ -69,7 +69,9 @@ module.exports = {
         classPrefix: '',
         // Klipse config, you can check it here
         // https://github.com/viebel/klipse#configuration
-        klipseSettings: {},
+        klipseSettings: {
+          selector_eval_js: '.language-klipse-eval-js',
+        },
         // To load any external scripts you need, pass an array of URLs. The plugin will always load them before the klipse plugin
         // defaults to an empty Array
         externalScripts: []
