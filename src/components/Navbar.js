@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import dfcarpenter_logo from '../img/dfcarpenter_logo.svg';
+
 
 const Navbar = class extends React.Component {
 
@@ -35,7 +36,7 @@ const Navbar = class extends React.Component {
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
-          <h2>KAISUN</h2>
+        <img src={dfcarpenter_logo} alt="dfcarpenter" style={{ width: '50px' }} />
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -62,7 +63,7 @@ const Navbar = class extends React.Component {
       <div className="navbar-end has-text-centered">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://github.com/dfcarpenter/dfcarpenternet"
           target="_blank"
           rel="noopener noreferrer"
         >

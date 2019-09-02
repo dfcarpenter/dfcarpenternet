@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Dan Carpenters website',
     siteUrl: 'https://dfcarpenter.net',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    description: 'This repo contains my blog and other pages. Its built with Gatsby, and Netlify CMS. It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -74,23 +74,7 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    {
-      resolve: 'gatsby-plugin-klipse',
-      options: {
-        // Class prefix for <pre> tags containing code examples
-        // defaults to empty string
-        // if you use PrimsJS for example then add `language-` as the prefix
-        classPrefix: '',
-        // Klipse config, you can check it here
-        // https://github.com/viebel/klipse#configuration
-        klipseSettings: {
-          selector_eval_js: '.language-klipse-eval-js',
-        },
-        // To load any external scripts you need, pass an array of URLs. The plugin will always load them before the klipse plugin
-        // defaults to an empty Array
-        externalScripts: []
-      }
-    },
+    
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
