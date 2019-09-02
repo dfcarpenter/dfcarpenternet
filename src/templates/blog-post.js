@@ -5,6 +5,17 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import styled from 'styled-components';
+
+
+const Card = styled.div`
+  background: #ffffff;
+  border-radius: 2px;
+  margin: 5px 5px 10px;
+  padding: 5px;
+  position: relative;
+  box-shadow: 2px 2px 4px 0px #cfd8dc;
+`
 
 export const BlogPostTemplate = ({
   content,
@@ -25,6 +36,9 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <Card>
+              Meow
+            </Card>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
